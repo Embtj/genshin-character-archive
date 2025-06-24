@@ -9,7 +9,7 @@ export default function SortDropdown() {
         id="sort"
         className="sort-dropdown-input custom-focus"
         aria-label="Sort characters">
-          <option value="element" disabled hidden>Sort by...</option>
+          <option value="" disabled selected hidden>Sort by...</option>
           <option value="element">Element</option>
           <option value="weapon">Weapon</option>
           <option value="alphabetically">A-Z</option>

@@ -1,0 +1,55 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.1rem;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.character-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #7866aa;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  margin: 4rem;
+}
+
+.element-sign {
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  width: 50px;
+  top: 5px;
+  left: 5px;
+}
+
+.image-wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.character-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name-bar {
+  background-color: #e9e5dd;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.character-name {
+  margin: 0;
+}
