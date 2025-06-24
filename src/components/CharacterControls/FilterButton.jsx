@@ -6,7 +6,7 @@ export default function FilterButton({ onClick }) {
   return (
     <button
       type="button"
-      className="filter-button"
+      className="filter-button custom-focus"
       onClick={onClick}
       aria-label="Open filter"
     ><FontAwesomeIcon icon={faFilter} />Filter</button>
