@@ -1,8 +1,15 @@
+.rarity-four {
+  background-color: #7866aa;
+}
+
+.rarity-five {
+  background-color: #b27737;
+}
+
 .character-card {
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: #7866aa;
   max-width: 200px;
   width: 100%;
   border-radius: 10px;
@@ -44,3 +51,4 @@
 .character-name {
   margin: 0;
 }
+

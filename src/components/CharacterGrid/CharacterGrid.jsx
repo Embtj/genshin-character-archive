@@ -12,6 +12,7 @@ export default function CharacterGrid() {
             name={character.name}
             image={character.image}
             elementIcon={character.elementIcon}
+            rarity={character.rarity}
           />
       ))}
         </section>
