@@ -3,10 +3,14 @@ import CharacterCard from '../CharacterCard/CharacterCard'
 import characters from '../../data/characters.js'
 import "./CharacterGrid.css"
 
-export default function CharacterGrid() {
+export default function CharacterGrid({ searchTerm }) {
+  const filteredCharacters = characters.filter(character => 
+    character.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <section className="grid-container">
-      {characters.map(character => (
+      {filteredCharacters.map(character => (
         <CharacterCard
             key={character.id}
             name={character.name}

@@ -4,12 +4,12 @@ import SortDropdown from './SortDropdown'
 import SearchInput from './SearchInput'
 import './CharacterControls.css';
 
-export default function CharacterControls() {
+export default function CharacterControls({ searchTerm, setSearchTerm}) {
   return (
     <div className="character-controls">
         <FilterButton />
         <SortDropdown />
-        <SearchInput />
+        <SearchInput searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
     </div>
   )
 }
