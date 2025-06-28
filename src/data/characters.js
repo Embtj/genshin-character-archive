@@ -11,6 +11,7 @@ const characters = [
     rarity: 4,
     image: sucrosePortrait,
     elementIcon: anemoElement,
+    weapon: "Catalyst",
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const characters = [
     rarity: 5,
     image: dilucPortrait,
     elementIcon: pyroElement,
+    weapon: "Claymore",
   },
 ];
 
