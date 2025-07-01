@@ -1,8 +1,12 @@
 .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 0.1rem;
   max-width: 1200px;
-  padding: 0;
   margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem 1rem;
+  justify-items: center;
 }

@@ -22,6 +22,42 @@ const characters = [
     elementIcon: pyroElement,
     weapon: "Claymore",
   },
+  {
+    id: 3,
+    name: "Barbara",
+    element: "Hydro",
+    rarity: 4,
+    image: dilucPortrait,
+    elementIcon: pyroElement,
+    weapon: "Catalyst",
+  },
+  {
+    id: 4,
+    name: "Kaeya",
+    element: "Cryo",
+    rarity: 4,
+    image: dilucPortrait,
+    elementIcon: pyroElement,
+    weapon: "Sword",
+  },
+  {
+    id: 5,
+    name: "Diona",
+    element: "Cryo",
+    rarity: 4,
+    image: dilucPortrait,
+    elementIcon: pyroElement,
+    weapon: "Bow",
+  },
+  {
+    id: 6,
+    name: "Jean",
+    element: "Anemo",
+    rarity: 5,
+    image: dilucPortrait,
+    elementIcon: anemoElement,
+    weapon: "Sword",
+  },
 ];
 
 export default characters;

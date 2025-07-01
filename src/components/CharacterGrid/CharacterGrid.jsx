@@ -18,7 +18,8 @@ export default function CharacterGrid({ searchTerm, sortOption }) {
   }
 
   return (
-    <section className="grid-container">
+    <div className="grid-container">
+      <section className="character-grid">
       {sortedCharacters.map(character => (
         <CharacterCard
             key={character.id}
@@ -28,6 +29,8 @@ export default function CharacterGrid({ searchTerm, sortOption }) {
             rarity={character.rarity}
           />
       ))}
-        </section>
+      </section>
+    </div>
+    
   )
 }
